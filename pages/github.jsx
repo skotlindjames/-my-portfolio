@@ -17,13 +17,13 @@ const GithubPage = ({ repos, user }) => {
     <>
       <div className={styles.user}>
         <div>
-          {/* <Image
+          <Image
             src={user.avatar_url}
             className={styles.avatar}
             alt={user.login}
             width={50}
             height={50}
-          /> */}
+          />
           <h3 className={styles.username}>{user.login}</h3>
         </div>
         <div>
@@ -41,7 +41,7 @@ const GithubPage = ({ repos, user }) => {
       </div>
       <div className={styles.contributions}>
         <GitHubCalendar
-          username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
+          username="nazariy995"
           theme={theme}
           hideColorLegend
         />
@@ -52,12 +52,12 @@ const GithubPage = ({ repos, user }) => {
 
 export async function getStaticProps() {
   const userRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`
+    `https://api.github.com/users/nazariy995`
   );
   const user = await userRes.json();
 
   const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?sort=created_at&per_page=6`
+    `https://api.github.com/users/nazariy995/repos?sort=created_at&per_page=10`
   );
   const repos = await repoRes.json();
 
