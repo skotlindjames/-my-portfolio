@@ -12,17 +12,18 @@ const GithubPage = ({ repos, user }) => {
     level4: '#39d353',
   };
 
+
   return (
     <>
       <div className={styles.user}>
         <div>
-          <Image
+          {/* <Image
             src={user.avatar_url}
             className={styles.avatar}
             alt={user.login}
             width={50}
             height={50}
-          />
+          /> */}
           <h3 className={styles.username}>{user.login}</h3>
         </div>
         <div>

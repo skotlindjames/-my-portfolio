@@ -16,18 +16,18 @@ const ContactCode = () => {
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;email:{' '}
         <a
-          href="mailto:nitinranganath@gmail.com"
+          href="mailto:nazariy@cleverprogrammer.com"
           target="_blank"
           rel="noopener"
         >
-          nitinranganath@gmail.com
+          nazariy@cleverprogrammer.com
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;github:{' '}
-        <a href="https://github.com/itsnitinr" target="_blank" rel="noopener">
-          itsnitinr
+        <a href="https://github.com/nazariy995" target="_blank" rel="noopener">
+          nazariy995
         </a>
         ;
       </p>
