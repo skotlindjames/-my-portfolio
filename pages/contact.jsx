@@ -10,7 +10,7 @@ const ContactPage = () => {
 
   const submitForm = async (e) => {
     e.preventDefault();
-    const res = await fetch(`/api/contact`, {
+    const res = await fetch(`https://portfolio-n4sf11w39-nazariy995.vercel.app/api/contact`, {
       method: 'POST',
       body: JSON.stringify({ name, email, subject, message }),
     });
