@@ -3,7 +3,8 @@ module.exports = {
     domains: [
       'res.cloudinary.com',
       'avatars.githubusercontent.com',
-      'imgur.com'
+      'imgur.com',
+      "https://portfolio-nazariy995.vercel.app"
     ],
   }
 };
