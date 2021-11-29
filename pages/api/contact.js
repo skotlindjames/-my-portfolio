@@ -1,7 +1,7 @@
 const { Client } = require('@notionhq/client');
 
 const notion = new Client({
-  auth: process.env.NOTION_API_TOKEN,
+  auth: "secret_jreKs121c5vqST7PisE5m9as68y7rkfqvTndc7jpdWw",
 });
 
 export default async (req, res) => {
@@ -10,9 +10,10 @@ export default async (req, res) => {
   }
   try {
     const { name, email, subject, message } = JSON.parse(req.body);
+    console.log("I am in the API")
     await notion.pages.create({
       parent: {
-        database_id: process.env.NOTION_DATABASE_ID,
+        database_id: "9d9b8dfe0ff74092b4971259845ab6e7",
       },
       properties: {
         Name: {
