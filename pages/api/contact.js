@@ -10,6 +10,7 @@ export default async (req, res) => {
   }
 
   console.log("hiiii")
+  res.status(201).json({ msg: 'Success' });
   // try {
   //   const { name, email, subject, message } = JSON.parse(req.body);
   //   console.log("I am in the API")
