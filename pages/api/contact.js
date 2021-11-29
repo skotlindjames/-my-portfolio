@@ -8,10 +8,8 @@ export default async (req, res) => {
   if (req.method !== 'POST') {
     return res.status(405).json({ msg: 'Only POST requests are allowed' });
   }
-  res.status(201).json({ msg: 'Success' });
   try {
     const { name, email, subject, message } = JSON.parse(req.body);
-    console.log("I am in the API")
     await notion.pages.create({
       parent: {
         database_id: "9d9b8dfe0ff74092b4971259845ab6e7",
