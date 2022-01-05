@@ -8,95 +8,95 @@ const ContactCode = () => {
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;website:{' '}
-        <a href="https://nitinranganath.me" target="_blank" rel="noopener">
-          nitinranganath.me
+        <a href="https://app.netlify.com/teams/skotlindjames/overview?_ga=2.261237901.1281065685.1641064021-140737728.1630099174&_gac=1.254328314.1641064022.Cj0KCQiAlMCOBhCZARIsANLid6Y_0ALXXyt1128Hi3Sye6ZjHSsVKwQsggvTz0i-aeDFuZ4twvEF0H4aAhKoEALw_wcB&_gl=1%2Adski51%2A_gcl_aw%2AR0NMLjE2NDEwNjQwMjEuQ2owS0NRaUFsTUNPQmhDWkFSSXNBTkxpZDZZXzBBTFhYeXQxMTI4SGkzU3llNlpqSFNzVkt3UXNnZ3ZUejBpLWFlREZ1WjR0d3ZFRjBINGFBaEtvRUFMd193Y0I." target="_blank" rel="noopener">
+          Netlify  
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;email:{' '}
         <a
-          href="mailto:nazariy@cleverprogrammer.com"
+          href="scotlandjames88@gmail.com"
           target="_blank"
           rel="noopener"
         >
-          nazariy@cleverprogrammer.com
+          scotlandjames88@gmail.com
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;github:{' '}
-        <a href="https://github.com/nazariy995" target="_blank" rel="noopener">
-          nazariy995
+        <a href="https://github.com/skotlindjames" target="_blank" rel="noopener">
+          skotlindjames
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;linkedin:{' '}
         <a
-          href="https://www.linkedin.com/in/nitinranganath/"
+          href="https://www.linkedin.com/in/scotland-yannello-404446155/"
           target="_blank"
           rel="noopener"
         >
-          nitinranganath
+          Scotland-Yannello
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;twitter:{' '}
         <a
-          href="https://www.twitter.com/iamnitinr"
+          href="https://twitter.com/scotlandjames88"
           target="_blank"
           rel="noopener"
         >
-          iamnitinr
+          @scotlandjames88
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;instagram:{' '}
         <a
-          href="https://www.instagram.com/iamnitinr"
+          href="https://instagram.com/scot_the_builder?utm_medium=copy_link"
           target="_blank"
           rel="noopener"
         >
-          iamnitinr
+          @scot_the_builder
         </a>
         ;
       </p>
       <p className={styles.line}>
-        &nbsp;&nbsp;&nbsp;polywork:{' '}
+        &nbsp;&nbsp;&nbsp;stackedblitz:{' '}
         <a
           href="https://www.polywork.com/nitinranganath"
           target="_blank"
           rel="noopener"
         >
-          nitinranganath
+          skotlindjames
         </a>
         ;
       </p>
       <p className={styles.line}>
-        &nbsp;&nbsp;&nbsp;telegram:{' '}
+        &nbsp;&nbsp;&nbsp;codewars:{' '}
         <a href="https://t.me/iamnitinr" target="_blank" rel="noopener">
-          iamnitinr
+          skotlindjames
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;codepen:{' '}
-        <a href="https://codepen.io/itsnitinr" target="_blank" rel="noopener">
-          nitinranganath
+        <a href="https://codepen.io/skotlindjames" target="_blank" rel="noopener">
+          skotlindjames
         </a>
         ;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;codesandbox:{' '}
         <a
-          href="https://codesandbox.io/u/itsnitinr"
+          href="https://codesandbox.io/u/skotlindjames"
           target="_blank"
           rel="noopener"
         >
-          itsnitinr
+          skotlindjames
         </a>
         ;
       </p>

@@ -1,18 +1,31 @@
 [
   {
     "id": 1,
-    "name": "YouTube Clone",
-    "image": "https://imgur.com/O7kt2Lp.png",
+    "name": "Tip Calculator",
+    "image": "", 
     "description": "A platform for web developers to showcase their projects",
     "tags": ["react", "api", "css", "react native", "styled-components"],
-    "source_code": "https://github.com/CleverProgrammers/react-native-youtube-clone"
+    "source_code": "https://github.com/CleverProgrammers/react-native-youtube-clone",
+    "demo":""
   },
   {
     "id": 1,
-    "name": "YouTube Clone",
-    "image": "https://imgur.com/O7kt2Lp.png",
+    "name": "Color Changer",
+    "image": "",
     "description": "A platform for web developers to showcase their projects",
     "tags": ["react", "api", "css", "react native", "styled-components"],
-    "source_code": "https://github.com/CleverProgrammers/react-native-youtube-clone"
+    "source_code": "",
+    "demo": ""
+  
+  },
+  {
+    "id": 1,
+    "name": "Tip Calculator",
+    "image": "", 
+    "description": "A platform for web developers to showcase their projects",
+    "tags": ["react", "api", "css", "react native", "styled-components"],
+    "source_code": "https://github.com/CleverProgrammers/react-native-youtube-clone",
+    "demo": ""
   }
+
 ]
